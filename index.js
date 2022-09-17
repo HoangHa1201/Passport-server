@@ -17,13 +17,13 @@ app.use(passport.session())
 
 app.use(
     cors({
-        origin: "http://localhost:3000",
+        origin: "https://6325f3d06544056fab128fa2--netlify-thinks-hoangha1201-is-great.netlify.app/",
         methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
         credentials: true,
     })
 )
 
 app.use('/auth', authRoute);
-app.listen("5000", () => {
-    console.log("Server is running on port 5000");
+app.listen("https://passportjs-server.herokuapp.com/", () => {
+    console.log("Server is running on port");
 });
