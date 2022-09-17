@@ -17,7 +17,7 @@ app.use(passport.session())
 
 app.use(
     cors({
-        origin: "https://6325f3d06544056fab128fa2--netlify-thinks-hoangha1201-is-great.netlify.app/",
+        origin: "https://63260495d9d3bf7b11b8e7b7--passport-client.netlify.app",
         methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
         credentials: true,
     })
